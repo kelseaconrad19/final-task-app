@@ -1,5 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --bg-color: #f5f8ff;
+    --main-color: #3D4946;
+    --secondary-color: #8faba4;
+    --dark-text-color: #576965;
+    --light-text-color: #f5f8ff;
+    --secondary-dark-color: #50756c;
+    --tag-color-one: #e0fbf6;
+    --tag-color-text-one: #4BC3B5;
+    --tag-color-two: #ece7fe;
+    --tag-color-text-two: #8972f3;
+    --tag-color-three: #fde7ea;
+    --tag-color-text-three: #D175B7;
+    --tag-color-four: #f7f8fc;
+    --tag-color-text-four: #a0a6b5;
+    --checkbox-color: #D175B7;
+    --button-color: #4BC3B5;
+    --box-color: #fff1d6;
+    --box-color-2: #d3e6ff;
+    --box-color-3: #ffd9d9;
+    --box-color-4: #daffe5;
+    --task-color: #777982;
+}
+
 .libre-lg-heading {
-    color: #fff; 
+    color: var(--light-text-color); 
     font-size: 40px; 
     font-family: Libre Caslon Text, serif; 
     font-weight: 500; 
