@@ -270,14 +270,14 @@
 }
 
 /* SIGN UP PAGE */
-.form-signup {
+.form-sign-up {
 	max-width: 500px;
 	padding: 1rem;
 	margin: auto !important;
 }
 
 .background {
-	background-image: linear-gradient(0.25turn, #d175b7, #4bc3b5, #1c2c54);
+	background-image: linear-gradient(0.25turn, #d175b7, #4bc3b5, #1c2c 54);
 	flex-shrink: 0;
 	height: 100vph;
 	width: 100%;

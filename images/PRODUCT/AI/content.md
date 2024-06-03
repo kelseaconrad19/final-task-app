@@ -79,7 +79,7 @@ _Compete with your friends on the leaderboards. Who will be the ultimate quest m
 ## Screenshots/Demo Video
 
 **App Screenshots:**  
-Include high-quality images of the SideQuests interface, showing task creation, XP points, levels, and zzzzzzzz.
+Include high-quality images of the SideQuests interface, showing task creation, XP points, levels, and leaderboards.
 
 **Demo Video:**  
 _A short video demonstrating how SideQuests transforms your tasks into exciting quests. See how easy and fun it is to stay productive!_
