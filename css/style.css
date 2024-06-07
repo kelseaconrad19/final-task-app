@@ -1,157 +1,12 @@
-/* 
-
---- 01 TYPOGRAPHY SYSTEM
-
-Font: Reddit Sans, sans serif
-
-- Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-- Font Weights
-- Default: 400
-- Medium: 500 
-- Semi-Bold: 600
-- Bold: 700
-
-- Line Heights: 
-- Default: 1
-- Small: 1.05
-- Medium: 1.2
-- Paragraph default: 1.6
-
-- Letter Spacing:
-0.5 px
-0.75 px
-
-- SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
-
---- 02 COLORS
-
-- Primary: #56d0ae #FAF9FB
-
-- Tints:  
-#90E0C9
-- Shades: 
-#288F72
-#c50d52
-- Accents: 
-#f61067
-#ECFB77 
-
-- Grays:
-#2B2031 
-#b8a9c6
-
-
---- 05 SHADOWS
-0.3rem 0.3rem 1rem #b8a9c6;
-
---- 06 BORDER-RADIUS
-- Default: 8px
-- 
-
-
---- 07 WHITESPACE
-- Spacing System (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
-
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-
-html {
-	/* font-size: 10px; */
-	font-size: 62.5%;
-}
-
-body {
-	font-family: "Commissioner", sans-serif;
-	line-height: 1;
-	font-weight: 400;
-	color: #2b2031;
-	background-color: #faf9fb;
-}
-
-/*************************************/
-/* GENERAL COMPONENTS */
-/*************************************/
-
-.heading-primary,
-.heading-tertiary {
-	font-weight: 600;
-	letter-spacing: -0.5px;
-	text-align: center;
-	line-height: 1.2;
-}
-
-.heading-primary {
-	font-weight: 800;
-	font-size: 7.4rem;
-	margin-bottom: 3.2rem;
-	color: #2b2031;
-}
-
-.heading-tertiary {
-	font-weight: 600;
-	font-size: 1.8rem;
-	margin-bottom: 3.2rem;
-	color: #b8a9c6;
-}
-
-.btn {
-	background-color: #f61067;
-	font-size: 1.8rem;
-	border: 3px dashed #2b2031;
-	color: #faf9fb;
-	text-decoration: none;
-	font-weight: 600;
-	letter-spacing: 1.2px;
-	box-shadow: 0.3rem 0.3rem 1rem #b8a9c6;
-}
-
-.container {
-	/* 1140px is also a common width */
-	max-width: 120rem;
-	margin: 0 auto;
-	padding: 0 3.2rem;
-}
-
-.grid {
-	display: grid;
-	row-gap: 9.6rem;
-	column-gap: 6.4rem;
-}
-
-.grid--2-cols {
-	grid-template-columns: repeat(2, 1fr);
-}
-
-.grid--3-cols {
-	grid-template-columns: repeat(3, 1fr);
-}
-
-.grid--4-cols {
-	grid-template-columns: repeat(4, 1fr);
-}
-
-.grid--center-v {
-	align-items: center;
-}
-
-/*************************************/
-/* HEADER */
-/*************************************/
+/* ! ************************************/
+/* ! HEADER */
+/* ! ************************************/
 
 .header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #faf9fb;
+	background-color: #ebe6ef;
 	height: 9.6rem;
 	padding: 0 4.8rem;
 	position: relative;
@@ -161,9 +16,9 @@ body {
 	height: 6.4rem;
 }
 
-/*************************************/
-/* NAVIGATION */
-/*************************************/
+/* ! ************************************/
+/* ! NAVIGATION */
+/* ! ************************************/
 
 .main-nav-list {
 	list-style-type: none;
@@ -179,6 +34,7 @@ body {
 	font-weight: 500;
 	font-size: 1.8rem;
 	transition: all 0.3s;
+	color: #2b2031;
 }
 
 .main-nav-link:hover,
@@ -188,7 +44,7 @@ body {
 
 .main-nav-btn:link,
 .main-nav-btn:visited {
-	padding: 1.2rem 2rem;
+	padding: 1rem 1.6rem;
 	font-weight: 600;
 	letter-spacing: 1.2px;
 	border-radius: 8px;
@@ -212,9 +68,9 @@ body {
 	border: 2px dashed #2b2031;
 }
 
-/*************************************/
-/* HERO */
-/*************************************/
+/* ! ************************************/
+/* ! HERO */
+/* ! ************************************/
 
 .section-hero {
 	padding: 4.8rem 0 9.6rem 0;
@@ -229,6 +85,7 @@ body {
 	max-width: 150rem;
 	margin: 0 auto;
 	padding: 0 3.2rem;
+	margin-bottom: 8rem;
 }
 
 .hero-img {
@@ -258,7 +115,7 @@ body {
 
 .hero-cta-btn:link,
 .hero-cta-btn:visited {
-	padding: 2.4rem 3.2rem;
+	padding: 2rem 3.2rem;
 	border-radius: 8px;
 	margin-bottom: 4.8rem;
 	transition: all 0.3s;
@@ -269,22 +126,156 @@ body {
 	background-color: #c50d52;
 }
 
-/*************************************/
-/* FEATURES / BENEFITS */
-/*************************************/
+/* ! ************************************/
+/* ! FEATURES / BENEFITS */
+/* ! ************************************/
 
-/*************************************/
-/* HOW IT WORKS / GAMIFICATION */
-/*************************************/
+.features .heading-secondary {
+	font-size: 4.4rem;
+	font-weight: 600;
+	margin-bottom: 5.2rem;
+}
 
-/*************************************/
-/* TESTIMONIALS */
-/*************************************/
+.features .heading-tertiary {
+	color: #faf9fb;
+	margin-bottom: 1.4rem;
+	text-align: center;
+}
+.features-section {
+	background-color: #f61067;
+	padding-top: 4.8rem;
+	padding-bottom: 4.8rem;
+}
+.features {
+	max-width: 120rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 9.6rem;
+}
 
-/*************************************/
-/* PRICING / CTA */
-/*************************************/
+.card-img-top {
+	height: 27rem;
+	width: 100%;
+	display: flex;
+}
 
-/*************************************/
-/* FOOTER */
-/*************************************/
+.card-title {
+	font-size: 2.4rem;
+}
+
+.card-text {
+	font-size: 1.6rem;
+	line-height: 1.5;
+	color: #2b2031;
+}
+
+.card {
+	margin-right: 1.8rem;
+	margin-left: 1.8rem;
+}
+
+.feature-icon {
+	height: 4.4rem;
+	width: 4.4rem;
+	margin-bottom: 1rem;
+	margin-right: 0.8rem;
+}
+/* ! ************************************/
+/* ! HOW IT WORKS / GAMIFICATION */
+/* ! ************************************/
+
+/* ? Comic Book Features Layout */
+/* .features-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.features {
+	max-width: 120rem;
+}
+
+.features-heading {
+	font-size: 4.8rem;
+	font-weight: 700;
+	margin-bottom: 1.2rem;
+	padding: 6.4rem;
+	background-color: #f61067;
+	color: #faf9fb;
+	text-align: center;
+	border: 1.5px solid #2b2031;
+}
+
+.features-card-img {
+	width: 100%;
+	border-radius: 8px;
+	border: 1.5px solid #2b2031;
+	border-top: none;
+	height: 245px;
+}
+
+.features-text {
+	font-size: 1.6rem;
+	font-weight: 600;
+	padding-left: 1.2rem;
+	padding-bottom: 2.4rem;
+	border: 1.5px solid #2b2031;
+	border-bottom: none;
+	border-top: none;
+	margin-bottom: 0;
+} */
+
+/* ? Comic Book How It Works Layout */
+/* .how-it-works-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.how-it-works {
+	max-width: 120rem;
+}
+
+.how-it-works-heading {
+	font-size: 4.8rem;
+	font-weight: 700;
+	margin-bottom: 1.2rem;
+	padding: 6.4rem;
+	background-color: #ecfb77;
+	color: #2b2031;
+	text-align: center;
+	border: 1.5px solid #2b2031;
+}
+
+.how-it-works-img {
+	width: 100%;
+	border-radius: 8px;
+	border: 1.5px solid #2b2031;
+	border-top: none;
+	height: 245px;
+}
+
+.how-it-works-text {
+	font-size: 1.6rem;
+	font-weight: 600;
+	padding-left: 1.2rem;
+	padding-bottom: 2.4rem;
+	border: 1.5px solid #2b2031;
+	border-bottom: none;
+	border-top: none;
+	margin-bottom: 0;
+} */
+
+/* ! ************************************/
+/* ! TESTIMONIALS */
+/* ! ************************************/
+
+/* ! ************************************/
+/* ! PRICING / CTA */
+/* ! ************************************/
+
+/* ! ************************************/
+/* ! FOOTER */
+/* ! ************************************/

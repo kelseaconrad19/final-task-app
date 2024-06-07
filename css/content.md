@@ -32,9 +32,9 @@ _SideQuests is the gamified to-do list app that transforms your daily tasks into
 
 **Icons and Descriptions:**
 
-- **Task Management:** Organize and prioritize your tasks with ease.
-- **Leaderboards:** Compete with friends and see who’s the ultimate quest master.
-- **Customization:** Personalize your questing experience with unique themes.
+- **Epic Quest Creator:** Craft your own legendary quests by transforming your tasks into immersive adventures. Customize every detail, from the quest name and description to the rewards and challenges.
+- **Magic Boost System:** Struggling to stay motivated? Unleash the power of magic boosts to supercharge your productivity. Choose from a variety of enchantments like double XP, extended time limits, or even summon a virtual companion to cheer you on.
+- **Guild Alliances:** Assemble your crew of fellow adventurers and form powerful guilds. Collaborate on group quests, share tips and strategies, and climb the leaderboards together as an unstoppable force.
 
 ## How It Works Section
 
