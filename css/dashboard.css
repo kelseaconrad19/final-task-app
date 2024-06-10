@@ -1,6 +1,10 @@
+body {
+	background-color: #ebe6ef;
+}
 /*! ************************************/
 /* ! DB GRID MAPPING */
 /*! ************************************/
+
 .site {
 	display: grid;
 	grid-template-columns: 1fr 7fr;
@@ -49,6 +53,10 @@ header {
 	height: 4.8rem;
 }
 
+.logo:hover {
+	cursor: pointer;
+}
+
 .searchbar input {
 	width: 25rem;
 	height: 3.6rem;
@@ -56,7 +64,7 @@ header {
 	padding: 0 1.8rem;
 	font-size: 1.4rem;
 	outline: none;
-	border: none;
+	border: 0.5px solid #2b2031;
 }
 
 .profile-pic {
@@ -66,10 +74,18 @@ header {
 	border: 2px solid #5e4870;
 }
 
+.profile-pic:hover {
+	cursor: pointer;
+}
+
 .notification-icon {
 	height: 3rem;
 	width: 3rem;
 	color: #5e4870;
+}
+
+.notification-icon:hover {
+	cursor: pointer;
 }
 
 .right-icons {
@@ -104,6 +120,11 @@ header {
 	transition: all 0.1s ease-in-out;
 }
 
+.nav-option:hover {
+	cursor: pointer;
+	color: #288f72;
+}
+
 .nav-lower-options h5 {
 	font-size: 1.4rem;
 	font-weight: 400;
@@ -119,7 +140,7 @@ header {
 }
 */
 .topic-heading {
-	margin-bottom: 2.4rem;
+	/* margin-bottom: 2.4rem; */
 }
 
 .topic-heading.cal {
@@ -138,9 +159,9 @@ header {
 .box {
 	background-color: #faf9fb;
 	width: 100%;
-	box-shadow: 0.5px 0.5px 0.5rem #cdc1d7;
+	box-shadow: 0.5px 0.5px 0.5rem #ddd6e2;
 	border-radius: 8px;
-	padding: 1.6rem 0 1.6rem 1.6rem;
+	padding: 1.6rem;
 }
 
 .box3 {
@@ -178,6 +199,10 @@ header {
 
 .p3 {
 	color: #2b2031;
+}
+
+.checkbox:hover {
+	cursor: pointer;
 }
 
 /* ! DB OVERDUE TASKS BOX */
@@ -233,7 +258,7 @@ button {
 	padding: 0.5em 0.75em;
 	font-weight: 600;
 	font-size: 1.2rem;
-	box-shadow: 0rem 0.1rem 0.3rem #b8a9c6;
+	box-shadow: 0rem 0.1rem 0.3rem #ddd6e2;
 }
 
 .month-selector {
@@ -292,8 +317,8 @@ button {
 	cursor: pointer;
 	&:focus {
 		outline: 0;
-		color: #90e0c9;
-		border: 2px solid #90e0c9;
+		color: #2b2031;
+		border: 2px solid #f61067;
 	}
 }
 
@@ -303,10 +328,10 @@ button {
 
 .current-day {
 	color: #fff;
-	border-color: #f61067;
-	background-color: #f61067;
+	border-color: #56d0ae;
+	background-color: #56d0ae;
 	&:focus {
-		background-color: #90e0c9;
+		background-color: #f61067;
 	}
 }
 
@@ -319,4 +344,25 @@ button {
 /* ! DB TODAY'S TASKS */
 .today {
 	margin-left: 2.4rem;
+}
+
+.task-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.task-nav .btn {
+	font-weight: 500;
+	font-size: 1.6rem;
+	border: none;
+	background-color: #90e0c9;
+	padding: 0.8rem;
+	color: #2b2031;
+	transition: all 0.3s;
+}
+
+.task-nav .btn:hover {
+	color: #faf9fb;
+	background-color: #288f72;
 }
