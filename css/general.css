@@ -147,6 +147,10 @@ body {
 	box-shadow: 0.3rem 0.3rem 1rem #b8a9c6;
 }
 
+.btn:hover {
+	cursor: pointer;
+}
+
 /* ! ************************************/
 /* ! LAYOUT GRIDS */
 /* ! ************************************/

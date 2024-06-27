@@ -1,0 +1,50 @@
+.todo-container {
+	max-width: 100vw;
+}
+
+.box5 {
+	grid-column: span 2;
+}
+
+.full-height {
+	height: 100vh;
+}
+
+.input-item {
+	width: 100%;
+	height: 3.6rem;
+	border-radius: 8px;
+	padding: 0 1.8rem;
+	font-size: 1.4rem;
+	outline: none;
+	border: 0.5px solid #2b2031;
+	margin-top: 1.6rem;
+}
+
+#todo-form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.6rem;
+}
+
+#input-button {
+	margin-top: 3.2rem;
+	font-weight: 500;
+	font-size: 1.6rem;
+	border: none;
+	background-color: #90e0c9;
+	padding: 0.8rem;
+	color: #2b2031;
+	transition: all 0.3s;
+	border-radius: 8px;
+	width: 100%;
+}
+
+#input-button:hover {
+	background-color: #288f72;
+	color: #fbf7ff;
+}
+
+.last-item {
+	grid-column: span 2;
+}

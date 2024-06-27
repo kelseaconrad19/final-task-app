@@ -1,0 +1,101 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	padding: 16px;
+	font-family: "Commissioner", sans-serif;
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: 0.5px solid #2b2031;
+	border-radius: 8px;
+	background: #fbf7ff;
+	font-size: 1.4rem;
+}
+
+h1 {
+	color: #2b2031;
+	font-size: 3.6rem;
+	margin-bottom: 1.6rem;
+}
+
+p {
+	color: #2b2031;
+	font-size: 1.6rem;
+}
+
+label {
+	color: #2b2031;
+	font-size: 1.6rem;
+	margin-bottom: 1.2rem;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	background-color: #b8a9c6;
+	outline: none;
+}
+
+hr {
+	border: 1px solid #fbf7ff;
+	margin-bottom: 25px;
+}
+
+.registerbtn {
+	background-color: #56d0ae;
+	color: #fbf7ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+	font-size: 1.8rem;
+	border-radius: 8px;
+	font-weight: 600;
+	transition: all 0.3s !important;
+}
+
+.registerbtn:hover,
+.registerbtn:active {
+	background-color: #288f72;
+}
+
+a {
+	color: #c50d52;
+}
+
+.signin {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+	font-size: 1.8rem;
+	border-radius: 8px;
+	line-height: 1.6rem;
+	font-weight: 400;
+	margin-top: 1.6rem;
+}
+
+.signin p {
+	margin-bottom: 0;
+}
