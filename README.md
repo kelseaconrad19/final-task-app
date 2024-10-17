@@ -35,6 +35,5 @@ SideQuests is a gamified to-do list app designed to turn your daily tasks into e
 - 15 GB of storage
 - Phone and email support
 
-## Getting Started
 
 Visit [SideQuests](https://kelseaconrad19.github.io/final-task-app/) to start your adventure. Access the [Quest Dashboard](https://kelseaconrad19.github.io/final-task-app/dashboard-index.html) to manage your tasks.
